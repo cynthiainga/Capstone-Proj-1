@@ -3,3 +3,12 @@ const showBtn = document.querySelector('nav .show-menu-btn');
 const closeBtn = document.querySelector('nav .close-menu-btn');
 const navMenu = document.querySelector('nav .nav-menu');
 const navLinks = document.querySelectorAll('nav .nav-menu li');
+
+function showMenu() {
+    navMenu.classList.add('open');
+    navMenu.classList.remove('hide');
+    setTimeout(() => {
+      closeBtn.style.display = 'block';
+    }, 1000);
+    html.style.overflow = 'hidden';
+  }
