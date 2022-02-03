@@ -323,3 +323,166 @@ article h4 {
   padding: 22px 32px;
   background-color: var(--secondary);
 }
+
+.featured-section {
+    width: 100%;
+    background-color: var(--background);
+  }
+  
+  .featured-section h2 {
+    color: var(--text-color);
+    font-weight: normal;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    padding: 62px;
+  }
+  
+  .featured-section h2::after {
+    content: " ";
+    display: block;
+    width: 48px;
+    height: 3px;
+    margin: 14px auto 0;
+    background-color: var(--secondary);
+  }
+  
+  .featured-section .teams {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 5px;
+  }
+  
+  li .card-img {
+    width: 140px;
+    margin: 0 0.5rem;
+    flex-shrink: 0;
+  }
+  
+  li .card-img img {
+    width: 100%;
+    height: auto;
+  }
+  
+  li .card-body {
+    margin: 1rem 0.5rem;
+    max-width: 500px;
+  }
+  
+  li .card-body h3 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  li .card-body h4 {
+    color: var(--secondary);
+    font-size: 16px;
+    padding: 8px 0;
+  }
+  
+  li .card-body h4::after {
+    content: " ";
+    display: block;
+    max-width: 28px;
+    height: 2px;
+    margin: 8px 0 0;
+    background-color: var(--primary);
+  }
+  
+  li .card-body p {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  
+  .featured-section .see-more {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto 50px;
+  }
+  
+  .see-more button {
+    padding: 24px 160px;
+    font-size: 24px;
+    color: var(--text-color);
+    background-color: var(--background);
+    border: 1px solid var(--primary);
+  }
+  
+  .see-more button i {
+    color: var(--secondary);
+  }
+  
+  .see-more button:hover,
+  .see-more button:hover i {
+    color: var(--primary);
+    background-color: var(--secondary);
+  }
+  
+  .partners-section {
+    width: 100%;
+    background-color: var(--text-color);
+    opacity: 0.9;
+    padding: 3rem 0;
+    z-index: 0;
+  }
+  
+  .partners-section h2 {
+    color: var(--primary);
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .partners-section h2::after {
+    content: " ";
+    display: block;
+    width: 48px;
+    height: 2px;
+    margin: 14px auto 0;
+    background-color: var(--secondary);
+  }
+  
+  .partners-list {
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .partners-list li img {
+    width: 100%;
+    color: var(--primary);
+    cursor: pointer;
+  }
+  
+  footer {
+    width: 100%;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2rem 0;
+    margin: 0 auto;
+    background-color: var(--background);
+  }
+  
+  footer .logo {
+    height: 8rem;
+    width: 7rem;
+    margin: 0 2rem;
+    flex-shrink: 0;
+  }
+  
+  footer .logo img {
+    width: 100%;
+    height: auto;
+    color: var(--text-color);
+    cursor: pointer;
+  }
+  
+  footer .created {
+    width: 40%;
+    margin: 1rem;
+  }
+  
+  footer .created p {
+    color: var(--text-color);
+    text-align: left;
+    font-size: 13px;
+  }
