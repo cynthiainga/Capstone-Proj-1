@@ -486,3 +486,19 @@ article h4 {
     text-align: left;
     font-size: 13px;
   }
+
+  @media screen and (min-width: 768px) {
+    .home-section {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  
+    .featured-section .teams {
+      width: 90%;
+      max-width: 920px;
+      margin: 0 auto;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap: 30px;
+    }
+  }
+
