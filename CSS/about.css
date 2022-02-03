@@ -434,3 +434,26 @@ main {
     color: var(--text-color);
     text-align: left;
   }
+
+  @media screen and (min-width: 768px) {
+    .home-section {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  
+    .conf-image {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      margin: 2rem auto;
+    }
+  
+    .conf-image li {
+      margin: 0 0.5rem 1rem;
+      width: 80%;
+      max-width: 500px;
+      height: 300px;
+      position: relative;
+    }
+  }
