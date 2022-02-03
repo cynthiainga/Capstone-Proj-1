@@ -502,3 +502,163 @@ article h4 {
     }
   }
 
+  @media screen and (min-width: 769px) {
+    header .media {
+      display: block;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 3;
+      background-color: var(--text-color);
+    }
+  
+    header .media ul {
+      justify-content: flex-end;
+      margin-right: 9%;
+    }
+  
+    .main-program li {
+      width: 200px;
+      justify-self: center;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 16px 8px 6px;
+    }
+  
+    .media ul li {
+      padding: 10px 14px;
+    }
+  
+    .program-section a {
+      display: block;
+      color: var(--primary);
+      font-size: 18px;
+      margin: 20px auto;
+    }
+  
+    .media ul li a {
+      color: var(--primary);
+      text-decoration: none;
+      font-size: 14px;
+      transition: all 0.5s ease-in-out;
+    }
+  
+    .media ul li a:hover {
+      color: var(--secondary);
+    }
+  
+    .Hamburger .show-menu-btn {
+      display: none;
+    }
+  
+    header .Hamburger {
+      position: fixed;
+      top: 22px;
+      left: 0;
+      right: 0;
+      justify-content: space-around;
+      z-index: 2;
+    }
+  
+    nav .logo {
+      display: block;
+      width: 4.5rem;
+      height: 100px;
+      margin-top: 20px;
+    }
+  
+    nav .nav-menu {
+      visibility: visible;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+      position: static;
+      transition: all 1s ease-in-out;
+      transform: translateY(0%);
+    }
+  
+    nav .nav-menu li {
+      font-size: 20px;
+      font-weight: 500;
+      margin: 12px;
+    }
+  
+    nav .nav-menu li.active a {
+      color: var(--secondary);
+    }
+  
+    .nav-bar {
+      background-color: var(--primary);
+      height: 115px;
+    }
+  
+    .home-section {
+      padding-top: calc(80px + 92px);
+    }
+  
+    .title-home-section h2 {
+      font-size: 48px;
+      font-weight: 500;
+      line-height: 60px;
+    }
+  
+    .title-home-section h1 {
+      font-size: 44px;
+      line-height: 78px;
+    }
+  
+    article h4 {
+      width: 90%;
+    }
+  
+    .program-section h2,
+    .featured-section h2 {
+      padding: 62px;
+    }
+  
+    .program-section .main-program {
+      width: 100%;
+      margin: 0 auto;
+      grid-template-columns: repeat(4, 1fr);
+      grid-gap: 7px;
+      text-align: center;
+      grid-auto-rows: 250px;
+    }
+  
+    .program-section button {
+      display: none;
+    }
+  
+    .main-program li:hover {
+      border: 3px solid var(--primary);
+      cursor: pointer;
+    }
+  
+    .main-program li i {
+      width: 50px;
+    }
+  
+    .main-program li h3 {
+      width: 100%;
+      padding: 10px 0;
+      flex-wrap: nowrap;
+    }
+  
+    .main-program li p {
+      width: 100%;
+    }
+  
+    .featured-section .teams {
+      width: 90%;
+      max-width: 850px;
+      margin: 0 auto;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+    }
+  
+    footer .created p {
+      text-align: center;
+    }
+  }
