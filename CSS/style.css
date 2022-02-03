@@ -662,3 +662,25 @@ article h4 {
       text-align: center;
     }
   }
+
+  @media screen and (min-width: 992px) {
+    .program-section .main-program {
+      width: 95%;
+      margin: 0 auto;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 7px;
+      text-align: center;
+      grid-auto-rows: 250px;
+    }
+  
+    .program-section button {
+      display: none;
+    }
+  
+    .program-section a {
+      display: block;
+      color: var(--primary);
+      font-size: 18px;
+      margin: 20px auto;
+    }
+  }
