@@ -684,3 +684,58 @@ article h4 {
       margin: 20px auto;
     }
   }
+
+  @media screen and (min-width: 1100px) {
+    .program-section .main-program {
+      width: 1040px;
+      margin: 0 auto;
+      grid-template-columns: repeat(5, 1fr);
+      grid-gap: 7px;
+      text-align: center;
+      grid-auto-rows: 250px;
+    }
+  
+    .main-program li {
+      width: 200px;
+      justify-self: center;
+      flex-direction: column;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 16px 8px 6px;
+    }
+  
+    .main-program li:hover {
+      border: 3px solid var(--primary);
+      cursor: pointer;
+    }
+  
+    .main-program li i {
+      width: 50px;
+    }
+  
+    .main-program li h3 {
+      width: 100%;
+      padding: 10px 0;
+      flex-wrap: nowrap;
+    }
+  
+    .main-program li p {
+      width: 100%;
+    }
+  
+    .program-section button {
+      display: none;
+    }
+  
+    .program-section a {
+      display: block;
+      color: var(--primary);
+      font-size: 18px;
+      margin: 20px auto;
+    }
+  
+    .featured-section .teams {
+      max-width: 1040px;
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
