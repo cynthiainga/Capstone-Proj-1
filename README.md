@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://cynthiainga.github.io/Capstone-Proj-1/)
 
 
 ## Getting Started
