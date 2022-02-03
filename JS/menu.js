@@ -12,3 +12,25 @@ function showMenu() {
     }, 1000);
     html.style.overflow = 'hidden';
   }
+
+  function closeMenu() {
+    navMenu.classList.remove('open');
+    navMenu.classList.add('hide');
+    setTimeout(() => {
+      closeBtn.style.display = 'none';
+    }, 500);
+    html.style.overflow = 'auto';
+  }
+  
+  function directMenu() {
+    navMenu.classList.remove('open');
+    closeBtn.style.display = 'none';
+    html.style.overflow = 'auto';
+  }
+  
+  navLinks.forEach((link) => {
+    link.addEventListener('click', directMenu);
+  });
+  
+  showBtn.addEventListener('click', showMenu);
+  closeBtn.addEventListener('click', closeMenu);
