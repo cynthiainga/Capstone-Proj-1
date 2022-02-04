@@ -40,7 +40,9 @@ Afro Fem Coders aims to create a space that gives women a chance to learn progra
 
 [Live Demo Link](https://cynthiainga.github.io/Capstone-Proj-1/)
 
-## Loom Video
+## Zoom Video
+
+[Link Zoom](https://drive.google.com/file/d/1Et6QWO7fPRXX_MJxCug3pD-Ov0snr9l_/view?usp=sharing)
 
 
 ## Getting Started
