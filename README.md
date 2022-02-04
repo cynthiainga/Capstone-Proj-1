@@ -42,7 +42,7 @@ Afro Fem Coders aims to create a space that gives women a chance to learn progra
 
 ## Zoom Video
 
-[Link Zoom](https://drive.google.com/file/d/1Et6QWO7fPRXX_MJxCug3pD-Ov0snr9l_/view?usp=sharing)
+[Link Zoom](https://drive.google.com/file/d/1Z_te42DTHXsvo4Nd2fqIilI2IKxuUx92/view?usp=sharing)
 
 
 ## Getting Started
