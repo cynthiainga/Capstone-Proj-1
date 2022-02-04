@@ -109,7 +109,6 @@ function displayMore() {
     btnSpan.textContent = 'MORE';
     btnIcon.classList.remove('fa', 'fa-chevron-up');
     btnIcon.classList.add('fa', 'fa-chevron-down');
-
     state = false;
   }
 }

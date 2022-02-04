@@ -312,6 +312,7 @@ footer .logo img {
   margin: 20px auto;
   text-align: center;
   cursor: pointer;
+  background-color: #fff;
 }
 
 .program-overview .logo img {
@@ -521,7 +522,7 @@ footer .created p {
 
   nav .nav-menu li {
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 400;
     margin: 12px;
   }
 
@@ -530,7 +531,7 @@ footer .created p {
   }
 
   .nav-bar {
-    background-color: var(--primary);
+    background-color: #fff;
     height: 115px;
   }
 
