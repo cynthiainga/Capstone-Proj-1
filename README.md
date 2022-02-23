@@ -3,14 +3,15 @@
 # AFRICAN WOMEN SOFTWARE ENGINEERS
 
 ## Description
+
 African Women Software Engineers is a website for a software development company that helps women to learn to program and become software engineers. And in this website, I talk about Afro Fem Coders
 Afro Fem Coders aims to create a space that gives women a chance to learn programming in a safe and encouraging environment. Our community is currently made up of 1300+ students across 20+ African countries.
 
 - This is the page view:
 
-> || Mobile version | Desktop version||
-> |-|---------|-----------|-|
->|| ![Screenshot1](./images/MobileVersion.png)  | ![Screenshot2](./images/DesktopVersion.png) |
+> |     | Mobile version                      | Desktop version                      |     |
+> | --- | ----------------------------------- | ------------------------------------ | --- |
+> |     | ![Screenshot1](./images/mobile.png) | ![Screenshot2](./images/desktop.png) |
 
 > Learning Objectives
 
@@ -28,7 +29,6 @@ Afro Fem Coders aims to create a space that gives women a chance to learn progra
 - Communicate technical concepts to other technical people.
 - Build the capstone project site.
 
-
 ## Built With
 
 - HTML
@@ -44,7 +44,6 @@ Afro Fem Coders aims to create a space that gives women a chance to learn progra
 
 [Link Zoom](https://drive.google.com/file/d/1Z_te42DTHXsvo4Nd2fqIilI2IKxuUx92/view?usp=sharing)
 
-
 ## Getting Started
 
 To get a local copy for this project and running follow these simple example steps.
@@ -59,27 +58,29 @@ To get a local copy for this project and running follow these simple example ste
 
 - To clone the repository run this command `git clone https://github.com/cynthiainga/Capstone-Proj-1.git`
 
-
 ### Run tests
 
 For tracking linters errors locally you need to follow these steps:
 
 - After cloning the project you need to run this command
+
   > npm install
-   `This command will download all the dependencies of the project`
+  > `This command will download all the dependencies of the project`
 
 - For tracking the linter errors in HTML file run:
+
   > npx hint .
 
 - For tracking the linter errors in CSS file run:
-  > npx stylelint "**/*.{css,scss}"
+
+  > npx stylelint "\*_/_.{css,scss}"
 
   - And For tracking the linter errors in JavaScript file run:
-  > npx eslint .
+    > npx eslint .
 
 ### Deployment
 
-- I used GitHub Pages to deploy my website 
+- I used GitHub Pages to deploy my website
 - For more information about publishing sources, see "[About github page](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#publishing-sources-for-github-pages-sites)"
 
 ## Author
@@ -89,7 +90,6 @@ For tracking linters errors locally you need to follow these steps:
 - GitHub: [@cynthiainga](https://github.com/cynthiainga)
 - Twitter: [@CynthiaInga_C](https://twitter.com/CynthiaInga_C)
 - LinkedIn: [Cynthia Inga](https://www.linkedin.com/in/cynthia-inga7/)
-
 
 ## 🤝 Contributing
 
@@ -105,8 +105,8 @@ Give a ⭐️ if you like this project!
 
 - Design and inspiration by [Cindy Shin on Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015).
 
-- Hat tip to [Microvers](www.microverse.org)  and all the staff
-- Thanks to My coding Partners 
+- Hat tip to [Microvers](www.microverse.org) and all the staff
+- Thanks to My coding Partners
 - Thanks to My Morning-session-group and Standup-team Partners and
 - Thanks to Code Reviewers
 
