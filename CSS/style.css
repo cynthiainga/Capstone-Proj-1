@@ -132,7 +132,7 @@ nav .nav-menu li:last-child {
 nav .nav-menu li a {
   color: var(--text-color);
   text-decoration: none;
-  font-size: 15px;
+  font-size: 18px;
   transition: all 0.5s ease-in;
 }
 
@@ -560,7 +560,9 @@ footer .created p {
     top: 22px;
     left: 0;
     right: 0;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 80px;
     z-index: 2;
   }
 

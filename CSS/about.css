@@ -499,7 +499,9 @@ footer .created p {
     top: 22px;
     left: 0;
     right: 0;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 80px;
     z-index: 2;
   }
 
