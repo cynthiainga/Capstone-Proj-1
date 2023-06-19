@@ -40,19 +40,15 @@ Afro Fem Coders aims to create a space that gives women a chance to learn progra
 
 [Live Demo Link](https://cynthiainga.github.io/Capstone-Proj-1/)
 
-## Zoom Video
-
-[Link Zoom](https://drive.google.com/file/d/1Z_te42DTHXsvo4Nd2fqIilI2IKxuUx92/view?usp=sharing)
-
 ## Getting Started
 
 To get a local copy for this project and running follow these simple example steps.
 
 ### Prerequisites
 
-- You need to have git installed in your computer
+- You need to have git installed on your computer
 - A text editor or terminal
-- A web brower to view output
+- A web browser to view the output
 
 ### Setup
 
